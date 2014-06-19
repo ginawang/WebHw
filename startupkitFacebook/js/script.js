@@ -54,7 +54,7 @@ FB.getLoginStatus(function(response) {
     var img = new Image(); // 新增圖像1
     img.src = "img/overlay.png"; //圖像路徑（路徑自己設，且自己加入想要的圖層）
 	var img3 = new Image();//新增圖像3
-	img3.src = "img/board.png"//圖像路徑
+	img3.src = "img/board.jpg"//圖像路徑
 	
 	
 
@@ -95,7 +95,7 @@ FB.getLoginStatus(function(response) {
       // if the drag flag is set, clear the canvas and draw the image
       if(isDragging){ //當拖拉為True時
 	  		var img2 = new Image(); //新增圖像2
-	  		img2.src = "img/horse.png"; //圖像路徑
+	  		img2.src = "img/horse.jpg"; //圖像路徑
           	ctx.clearRect(0,0,canvasWidth,canvasHeight); //移除canvas起始的內容
 			ctx.drawImage(img2,0,0); //劃入img2
 			
